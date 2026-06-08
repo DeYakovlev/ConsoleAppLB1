@@ -1,5 +1,4 @@
 ﻿//Задание 1 Одномерный массив целых чисел. Вариант 16. Подсчитать количество элементов, значения которых больше значения предыдущего элемента.
-//using System.Globalization;
 
 int min, max, size;
 Random random = new Random();
@@ -45,17 +44,12 @@ for (int i = 0; i < size; i++)
         Console.Write($" {array[i]} |");
 }
 
-//int nowNumb;
-//int lasNumb;
 int counter = 0;
 
 for (int i = 1; i < size; i++)
 {
-    //nowNumb = array[i];
-    //lasNumb = array[i - 1];
     if (array[i] > array[i - 1])
         counter++;
-    //counter = counter+1;
 }
 Console.WriteLine();
 
