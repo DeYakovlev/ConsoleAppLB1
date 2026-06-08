@@ -46,6 +46,7 @@ for (int i = 0; i < size; i++)
 }
 
 Console.WriteLine();
+Console.WriteLine();
 
 for (int i = 0; i < size;i++)
 {
@@ -60,6 +61,7 @@ for (int i = 0;i < size;i++)
         maxSum = resArr[i];
 }
 
+Console.WriteLine();
 Console.WriteLine();
 
 Console.WriteLine($"Максимальная сумма строки: {maxSum}");    
