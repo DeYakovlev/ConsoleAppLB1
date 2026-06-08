@@ -30,7 +30,7 @@ while (true)
     Console.Write("Введите максимальное число диапазона Max: ");
     if (int.TryParse(Console.ReadLine(), out max) && max > min)
         break;
-    Console.WriteLine("Неверное занчение");
+    Console.WriteLine("Неверное значение");
 
 }
 
