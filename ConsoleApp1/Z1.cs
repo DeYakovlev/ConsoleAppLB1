@@ -52,5 +52,4 @@ for (int i = 1; i < size; i++)
         counter++;
 }
 Console.WriteLine();
-
 Console.WriteLine($"количество элементов, значения которых больше значения предыдущего элемента: {counter}");
